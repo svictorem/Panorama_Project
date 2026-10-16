@@ -1,0 +1,63 @@
+==============================================================================
+TRABALHO PRÁTICO 01 — PANORAMA NAVEGÁVEL DE 360°
+Computação Gráfica e Processamento de Imagens
+Turma ENGCO231N01-SED · Engenharia de Computação · 8º período · 2026.2
+Prof. Franklin R. X. Dantas · Centro Universitário FAMETRO
+==============================================================================
+
+Fotografar um lugar que vocês conhecem dando a VOLTA INTEIRA, costurar as
+fotos num panorama só e escrever o programa que passeia dentro do resultado —
+com zoom, como a página do EarthCam que abre o enunciado.
+
+PARA FAZER EM CASA, EM TRIO (no máximo 3 pessoas).
+Umas 7 horas de trabalho, contando a saída para fotografar.
+
+NÃO TEM RELATÓRIO ESCRITO. O trio apresenta na aula, com o programa rodando.
+O que se mostra e as perguntas que vão ser feitas estão na seção 13 do
+enunciado.
+
+DUAS COISAS QUE MUDARAM, E QUE VOCÊS PRECISAM LER ANTES DE SAIR DE CASA
+
+  1. O GIRO É DE 360 GRAUS. São onze fotos, e a última tem de reencontrar a
+     primeira. Meia volta não é trabalho incompleto: é outro trabalho, e vale
+     zero nos 15 pontos das fotos. Três programas conferem isso sozinhos, e
+     não adianta combinar entre vocês que deu a volta.
+
+  2. A COSTURA TEM DE USAR OS NÚCLEOS DA MÁQUINA. Não é item extra e não é
+     para o fim: é a etapa 2, vale 20 pontos, e o que se cobra é a medida e a
+     explicação — não um número bonito. Seção 9.
+
+O QUE TEM NESTE PACOTE
+
+  projeto_panorama.pdf
+      O enunciado, em 16 seções. LEIA ANTES DE ABRIR QUALQUER CÓDIGO.
+      A seção 3 diz para que serve cada arquivo e em que função vocês vão
+      mexer — são oito lugares, e mais nada.
+      A seção 5 é a configuração do celular: são onze ajustes, e é a parte que
+      mais economiza tempo de vocês. Quem pular essa seção volta ao local e
+      fotografa tudo de novo.
+      A seção 6 é o giro. A 9 é o paralelismo. A 13 é a apresentação e a 15
+      traz o cronograma.
+
+  panorama/
+      Os arquivos de código. Três deles RODAM E ESTÃO ERRADOS DE PROPÓSITO:
+      costurar.py cola as fotos em posições chutadas e usa um núcleo só,
+      piramide.py escreve só um pedaço do que devia, e visor.py come toda a
+      memória do computador. Isso não é defeito de entrega — é o enunciado.
+      Rodem os três antes de programar qualquer coisa: o resultado ruim que
+      eles produzem é a melhor explicação do que o trabalho pede.
+
+      conferir.py é o único que já está pronto e correto. Ele diz o que está
+      errado no que vocês fizeram, e não diz como consertar.
+      Comecem pelo README.md de dentro da pasta — o venv é a primeira coisa.
+
+POR ONDE COMEÇAR
+
+  1. Leiam o PDF inteiro. Leva 20 minutos.
+  2. Configurem o celular (seção 5) ANTES de sair de casa.
+  3. Fotografem os 360° (seções 4 e 6) e rodem o conferir.py --fotos ainda no
+     local. Ele conta as fotos e diz na hora se aquilo fecha a volta.
+  4. Só então abram o código.
+
+Dúvidas e prazo: Portal Digital FAMETRO — digital.fametro.edu.br
+==============================================================================
